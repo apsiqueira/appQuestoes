@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Questoes</string>
+    <string name="resposta01">resposta1</string>
+    <string name="resposta02">resposta2</string>
+    <string name="resposta03">resposta3</string>
+    <string name="pergunta">conectar pergunta da api</string>
+</resources>

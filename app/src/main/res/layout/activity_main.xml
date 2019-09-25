@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupPerguntas"
+
+        android:layout_width="341dp"
+        android:layout_height="292dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPergunta">
+
+        <RadioButton
+            android:id="@+id/radio_resposta01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/resposta01" />
+
+        <RadioButton
+            android:id="@+id/radio_resposta02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+
+            android:text="@string/resposta02" />
+
+        <RadioButton
+            android:id="@+id/radio_resposta03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+
+            android:text="@string/resposta03" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewPergunta"
+        android:layout_width="0dp"
+        android:background="@color/colorTelaPergunta"
+        android:layout_height="75dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:text="@string/pergunta"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

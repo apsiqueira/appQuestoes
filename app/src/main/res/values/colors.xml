@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTelaPergunta">#c6ff00</color>
+    <color name="colorFundoRadioSelecionado">#fff176</color>
+    <color name="colorFundoRadioNaoSelecionado">#f4ff81</color>
+    <color name="colorFundoApp">#fff9c4</color>
+
+
+</resources>
